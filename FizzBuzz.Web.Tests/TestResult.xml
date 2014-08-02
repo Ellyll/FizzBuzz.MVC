@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Alf\documents\visual studio 2013\Projects\FizzBuzz\FizzBuzz.Web.Tests\FizzBuzz.Web.Tests.nunit" total="3" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-08-02" time="12:30:31">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.6387" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\WINDOWS\system32" machine-name="W-DATBLYGU" user="Alf" user-domain="W-Datblygu" />
+  <culture-info current-culture="cy-GB" current-uiculture="en-GB" />
+  <test-suite type="Project" name="C:\Users\Alf\documents\visual studio 2013\Projects\FizzBuzz\FizzBuzz.Web.Tests\FizzBuzz.Web.Tests.nunit" executed="True" result="Failure" success="False" time="0.621" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\Users\Alf\documents\visual studio 2013\Projects\FizzBuzz\FizzBuzz.Web.Tests\bin\Debug\FizzBuzz.Web.Tests.dll" executed="True" result="Failure" success="False" time="0.599" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="FizzBuzz" executed="True" result="Failure" success="False" time="0.599" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Web" executed="True" result="Failure" success="False" time="0.598" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Tests" executed="True" result="Failure" success="False" time="0.598" asserts="0">
+                    <results>
+                      <test-suite type="Namespace" name="Controller" executed="True" result="Failure" success="False" time="0.597" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="HomeControllerTests" executed="True" result="Failure" success="False" time="0.594" asserts="0">
+                            <results>
+                              <test-case name="FizzBuzz.Web.Tests.Controller.HomeControllerTests.CanCreate" executed="True" result="Success" success="True" time="0.180" asserts="1" />
+                              <test-case name="FizzBuzz.Web.Tests.Controller.HomeControllerTests.CanCreateWithFizzBuzzService" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="FizzBuzz.Web.Tests.Controller.HomeControllerTests.CheckReturnsCorrectView" executed="True" result="Failure" success="False" time="0.369" asserts="1">
+                                <failure>
+                                  <message><![CDATA[  Expected string length 5 but was 0. Strings differ at index 0.
+  Expected: "Index"
+  But was:  <string.Empty>
+  -----------^
+]]></message>
+                                  <stack-trace><![CDATA[at FizzBuzz.Web.Tests.Controller.HomeControllerTests.CheckReturnsCorrectView() in c:\Users\Alf\Documents\Visual Studio 2013\Projects\FizzBuzz\FizzBuzz.Web.Tests\Controller\HomeControllerTests.cs:line 44
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

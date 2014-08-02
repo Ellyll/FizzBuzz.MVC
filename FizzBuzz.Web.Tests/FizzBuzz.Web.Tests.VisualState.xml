@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]C:\Users\Alf\documents\visual studio 2013\Projects\FizzBuzz\FizzBuzz.Web.Tests\FizzBuzz.Web.Tests.nunit</TopNode>
+  <SelectedNode>[0-1004]FizzBuzz.Web.Tests.Controller.HomeControllerTests.CheckReturnsCorrectView</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\Users\Alf\documents\visual studio 2013\Projects\FizzBuzz\FizzBuzz.Web.Tests\FizzBuzz.Web.Tests.nunit" Expanded="true" />
+    <Node UniqueName="[0-1005]C:\Users\Alf\documents\visual studio 2013\Projects\FizzBuzz\FizzBuzz.Web.Tests\bin\Debug\FizzBuzz.Web.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1006]FizzBuzz" Expanded="true" />
+    <Node UniqueName="[0-1007]FizzBuzz.Web" Expanded="true" />
+    <Node UniqueName="[0-1008]FizzBuzz.Web.Tests" Expanded="true" />
+    <Node UniqueName="[0-1009]FizzBuzz.Web.Tests.Controller" Expanded="true" />
+    <Node UniqueName="[0-1001]FizzBuzz.Web.Tests.Controller.HomeControllerTests" Expanded="true" />
+  </Nodes>
+</VisualState>

@@ -1,0 +1,20 @@
+﻿@model FizzBuzz.Web.ViewModels.Home.IndexViewModel
+@{
+    ViewBag.Title = "FizzBuzz";
+}
+
+<h2>FizzBuzz</h2>
+
+@using(Html.BeginForm())
+{
+    @Html.LabelFor(m => m.Number)
+    @Html.EditorFor(m => m.Number)
+    @Html.ValidationMessageFor(m => m.Number)
+    <input type="submit" value="Check" />
+}
+
+@if (Model != null && Model.Result != null)
+{
+    <p>@Model.Result</p>
+}
+

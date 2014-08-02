@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Alf\documents\visual studio 2013\Projects\FizzBuzz\FizzBuzz.Core.Tests\FizzBuzz.Core.Tests.nunit" total="12" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-08-02" time="11:33:06">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.6387" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\Alf\Documents\Visual Studio 2013\Projects\FizzBuzz\packages\NUnit.Runners.2.6.3\tools" machine-name="W-DATBLYGU" user="Alf" user-domain="W-Datblygu" />
+  <culture-info current-culture="cy-GB" current-uiculture="en-GB" />
+  <test-suite type="Project" name="C:\Users\Alf\documents\visual studio 2013\Projects\FizzBuzz\FizzBuzz.Core.Tests\FizzBuzz.Core.Tests.nunit" executed="True" result="Success" success="True" time="0.226" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\Users\Alf\documents\visual studio 2013\Projects\FizzBuzz\FizzBuzz.Core.Tests\bin\Debug\FizzBuzz.Core.Tests.dll" executed="True" result="Success" success="True" time="0.205" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="FizzBuzz" executed="True" result="Success" success="True" time="0.204" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Core" executed="True" result="Success" success="True" time="0.204" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.203" asserts="0">
+                    <results>
+                      <test-suite type="Namespace" name="Services" executed="True" result="Success" success="True" time="0.203" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="FizzBuzzServiceTests" executed="True" result="Success" success="True" time="0.200" asserts="0">
+                            <results>
+                              <test-case name="FizzBuzz.Core.Tests.Services.FizzBuzzServiceTests.CanCreateService" executed="True" result="Success" success="True" time="0.101" asserts="1" />
+                              <test-case name="FizzBuzz.Core.Tests.Services.FizzBuzzServiceTests.CheckReturns1For1" executed="True" result="Success" success="True" time="0.010" asserts="1" />
+                              <test-case name="FizzBuzz.Core.Tests.Services.FizzBuzzServiceTests.CheckReturns2For2" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="FizzBuzz.Core.Tests.Services.FizzBuzzServiceTests.CheckReturnsBuzzFor5" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="FizzBuzz.Core.Tests.Services.FizzBuzzServiceTests.CheckReturnsBuzzForMultipleOf5" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="FizzBuzz.Core.Tests.Services.FizzBuzzServiceTests.CheckReturnsFizzBuzzForMultipleOf3And5" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="FizzBuzz.Core.Tests.Services.FizzBuzzServiceTests.CheckReturnsFizzFor3" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="FizzBuzz.Core.Tests.Services.FizzBuzzServiceTests.CheckReturnsFizzForMultipleOf3" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="FizzBuzz.Core.Tests.Services.FizzBuzzServiceTests.CheckReturnsTheNumberForNonMulipleOf3Or5" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="FizzBuzz.Core.Tests.Services.FizzBuzzServiceTests.CheckThrowsArgumentOfRangeExceptionFor0" executed="True" result="Success" success="True" time="0.025" asserts="0" />
+                              <test-case name="FizzBuzz.Core.Tests.Services.FizzBuzzServiceTests.CheckThrowsArgumentOfRangeExceptionForValueGreaterThan100" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                              <test-case name="FizzBuzz.Core.Tests.Services.FizzBuzzServiceTests.CheckThrowsArgumentOfRangeExceptionForValueLessThan1" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
